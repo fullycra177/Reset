@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Device Access Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loading-screen">
+    <h2>Accessing Device: +92 370 2073138</h2>
+    <p>Device: Vivo Y20</p>
+    <p class="loading-text">Loading...</p>
+  </div>
+
+  <div id="main-content" style="display:none;">
+    <h1>Device: Vivo Y20</h1>
+    <p>Phone Number: +92 370 2073138</p>
+
+    <div class="options">
+      <button onclick="startReset('device')">Reset This Device</button>
+      <button onclick="startReset('all')">Reset All WhatsApp Chat Devices</button>
+      <button onclick="showChat()">Check WhatsApp Last Recent Chat</button>
+    </div>
+
+    <div id="status"></div>
+    <div id="chat-box" style="display:none;"></div>
+    <p class="prank-note">⚠️ This is a prank. No real hacking involved.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
